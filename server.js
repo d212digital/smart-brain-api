@@ -29,7 +29,7 @@ app.use(cors());
 /***************** Routes for Server Endpoints*******************/
 // Gets root URL
 app.get('/', (req, res) => {
-    res.send(db.users)
+    res.send('it is working')
 })
 // For the sigin POST request
 app.post('/signin', (req, res) => 
