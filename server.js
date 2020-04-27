@@ -16,7 +16,7 @@ const db = knex({
     connection: {
       host : 'postgresql-concave-80742',
       user : 'postgres',
-      password : 'B.ingaa01',
+      password : '',
       database : 'smartbrain'
     }
   });
